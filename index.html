@@ -11,24 +11,19 @@
             content="Incremental Game based on Idle Mine by Crovie."/>
     <meta name="keywords" content="games, game, idle, incremental, idle mine. idle mine remix"/>
     <meta name="url" content="hhttps://antoniosb2007.github.io/Undertale-Clicker"/>
-    <meta name="og:title" content="Idle Mine: Remix"/>
+    <meta name="og:title" content="Undertale Clicker"/>
     <meta name="og:type" content="website"/>
     <meta name="og:url" content="https://antoniosb2007.github.io/Undertale-Clicker"/>
     <meta name="og:description"
             content="Incremental Game based on Idle Mine by Crovie."/>
     <meta name="og:image" content="https://antoniosb2007.github.io/Undertale-Clicker/Images/logo.png"/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content="Idle Mine: Remix"/>
-    <meta name="twitter:description"
-            content="Incremental Game based on Idle Mine by Crovie."/>
-    <meta name="twitter:image" content="https://antoniosb2007.github.io/Undertale-Clicker/Images/logo.png"/>
 </head>
 <body>
 
 <div id="app">
     <canvas id="cache" ref="cache" width="256" height="224"></canvas>
     <header>
-        <h1 style="flex-grow: 1;">Idle Mine: Remix</h1>
+        <h1 style="flex-grow: 1;">Undertale Clicker</h1>
         <span style="flex-grow: 1.1; text-align: center;">{{formatNumber(money, 2, 1e12)}} $</span>
         <span class="inline-resource" style="flex-grow: 1;  justify-content: flex-end;"><img class="inline" src="Images/gem.png"/> {{formatNumber(gems, 2, 1e12, 0)}}</span>
         <span class="inline-resource" v-if="highestMineObjectLevel >= 90" style="flex-grow: 1;  justify-content: flex-end;"><img class="inline" src="Images/planetcoin.png"/> {{formatNumber(planetCoins, 2, 1e12, 0)}}</span>
@@ -185,7 +180,7 @@
             </div>
             <div class="story-milestones" ref="storymilestones">
                 <div v-if="storyDisplayed('gameStart')">
-                    <h3>Welcome to Idle Mine: Remix!</h3>
+                    <h3>Welcome to Undertale Clicker!</h3>
                     <p>So you have decided to start with mining. You have heard that many treasures lie down below the surface, so you
                     can't wait to find out what you can find. Maybe you can become rich?<br/>
                     There's you, and your Auto-Mining-Device. Let's get started!</p>
