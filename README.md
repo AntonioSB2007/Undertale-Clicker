@@ -1,3 +1,3 @@
-# Idle Mine: Remix
+# Undertale Clicker
 
-Incremental Game inspired by [https://www.kongregate.com/games/crovie/idle-mine]()
+Inspirado em jogos Clicker famosos
